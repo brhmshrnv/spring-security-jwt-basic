@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: ${ACTIVE_PROFILE:dev}
+    include:
+      - db
